@@ -31,11 +31,26 @@
     border: 1px solid black;
 }
 
+p,h3{
+    margin: 10px;
+}
+
 .search
 {
     border: 1px solid black;
     padding: 10px;
     margin: 20px;
+}
+
+.filter-btn
+{
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .res-container
@@ -47,7 +62,7 @@
 .res-card
 {
     border: 1px solid rgb(255, 255, 255);        /* This is to fix the jitter on hover- compensating for the border width*/
-    height: 300px;
+    height: 350px;
     width: 200px;
     margin: 20px;
     padding: 10px;
